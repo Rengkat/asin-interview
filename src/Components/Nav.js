@@ -1,10 +1,16 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { IoIosMenu } from "react-icons/io";
+import MobileNav from "./MobileNav";
 const Nav = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const openMenu = () => {
+    setIsMenuOpen((prev) => !prev);
+  };
   return (
-    <div className=" w-full lg:w-[82%] mx-auto">
+    <div className=" w-full lg:w-[82%] mx-auto relative">
       <div className="flex justify-between items-center py-5 px-10 lg:p-3 ">
         <div className="flex items-center gap-5">
           <Image src={"/logo.svg"} height={200} width={200} className="w-[70%] lg:w-[20%]" />
@@ -18,7 +24,7 @@ const Nav = () => {
             <Link href={"more"}>More</Link>
           </nav>
         </div>
-        <div className="flex gap-5 items-center hidden">
+        <div className="hidden lg:flex gap-5 items-center ">
           <Link className="bg-[#20888F] py-3 px-4 rounded-[25px] text-sm text-white" href={"sinc"}>
             SINC With Us
           </Link>
@@ -26,9 +32,15 @@ const Nav = () => {
             Apply to SIP 1.0
           </Link>
         </div>
-        <div className="text-3xl cursor-pointer">
+        <div onClick={openMenu} className="lg:hidden text-3xl cursor-pointer">
           <IoIosMenu />
         </div>
+      </div>
+      <div
+        className={`lg:hidden ${
+          isMenuOpen ? "block" : "hidden"
+        } fixed inset-0 z-10 w-full h-screen`}>
+        <MobileNav openMenu={openMenu} />
       </div>
     </div>
   );
