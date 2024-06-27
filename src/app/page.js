@@ -3,6 +3,7 @@ import CoFound from "@/Components/CoFound";
 import Deals from "@/Components/Deals";
 import FocusArea from "@/Components/FocusArea";
 import Footer from "@/Components/Footer";
+import Footer2 from "@/Components/Footer2";
 import Hero from "@/Components/Hero";
 import Innovations from "@/Components/Innovations";
 import Jobs from "@/Components/Jobs";
@@ -30,6 +31,7 @@ export default function Home() {
       <News />
       <Newsletter />
       <Footer />
+      <Footer2 />
     </main>
   );
 }

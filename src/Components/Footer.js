@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#212121] border-t-[1px] border-gray-500">
+    <div className="w-full bg-[#212121] border-y-[1px] border-gray-500">
       <div className="w-[80%] mx-auto text-white flex justify-between">
         <div className="w-[20%] py-[2rem]">
           <Image className="w-[50%]" src={"/blackLogo.svg"} width={200} height={200} />
