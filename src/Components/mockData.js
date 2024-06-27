@@ -1,3 +1,4 @@
+import { CiViewList } from "react-icons/ci";
 export const services = [
   {
     title: "Work with Service Incubators to expedite your time-to-market",
@@ -90,5 +91,148 @@ export const CoFounds = [
     color: "#FF78BF",
     content:
       "After successful validation and demo day at the end of the EIR program, we move those with perfect fit to become co-founders of the product they validated as CEO & CTO, each owning 20% of the venture. ",
+  },
+];
+export const Procedures = [
+  {
+    heading: "Application and Selection",
+    icon: "/list.svg",
+    content: [
+      "Begin your journey by completing our straightforward application form. Share insights into your entrepreneurial background, expertise, and your vision for supporting the success of our portfolio companies.",
+      "Our dedicated selection committee, comprised of key stakeholders at SINC Partners, will carefully review your application.",
+    ],
+  },
+  {
+    heading: "Alignment Meeting and Proposal Submission",
+    icon: "/meeting.svg",
+    content: [
+      "If your application stands out, we'll invite you to an alignment meeting. This is an opportunity to discuss the goals of our EIR program and explore how your expertise aligns with the needs of our portfolio companies",
+      "Following the alignment meeting, submit a formal proposal outlining your intended contributions and how you envision adding significant value to our portfolio companies.",
+    ],
+  },
+  {
+    heading: "Negotiation and Agreement",
+    icon: "/edit.svg",
+    content: [
+      "Upon successful alignment and proposal review, we'll engage in discussions to finalize the terms of your EIR role. This includes the duration, expectations, and any compensation or equity arrangements.",
+      "Once terms are agreed upon, we'll draft a formal agreement outlining the specifics of your EIR engagement, including reporting structures, responsibilities, and the support/resources provided by SINC Partners.",
+    ],
+  },
+  {
+    heading: "Onboarding and Integration",
+    icon: "/camera.svg",
+    content: [
+      "Congratulations! As an accepted EIR, you'll undergo an onboarding process to familiarize yourself with the SINC Partners ecosystem, our portfolio companies, and key team mem",
+      "Facilitated introductions will ensure a seamless integration between you and relevant portfolio companies, setting clear expectations for collaboration",
+    ],
+  },
+];
+export const DealsInfos = [
+  {
+    bullets: [
+      "Idea Stage: $5k for 5% Equity",
+      "Expected Revenue at This Stage: $0/mth",
+      "Duration of Raise: 1mth",
+      "Who Can Invest: People with Domain Expertise and Advisors ",
+    ],
+  },
+  {
+    bullets: [
+      "Build Stage: $25k worth of service for 10% Equity",
+      "Expected Revenue at This Stage: $100+/mth",
+      "Duration of Raise: 1-3mths ",
+      "Who Can Invest: Developers, Engineers, Growth Marketers",
+    ],
+  },
+  {
+    bullets: [
+      "Validation Stage: $50k for 5% Equity",
+      "Expected Revenue at This Stage: $1k+/mth",
+      "Duration of Raise: 3-6mths",
+      "Who Can Invest: Everyone",
+    ],
+  },
+  {
+    bullets: [
+      "Traction Stage: $125k worth of service for 5% Equity",
+      "Expected Revenue at This Stage: $5k+/mth",
+      "Duration of Raise: 6-12mths",
+      "Who Can Invest: Media, Influencers, Celebrity, Platform Owners ",
+    ],
+  },
+];
+export const DealsInfos2 = [
+  {
+    bullets: [
+      "Idea Stage: $5k for 5% Equity",
+      "Expected Revenue at This Stage: $0/mth",
+      "Duration of Raise: 1mth",
+      "Who Can Invest: People with Domain Expertise and Advisors ",
+    ],
+  },
+  {
+    bullets: [
+      "Build Stage: $25k worth of service for 10% Equity",
+      "Expected Revenue at This Stage: $100+/mth",
+      "Duration of Raise: 1-3mths ",
+      "Who Can Invest: Developers, Engineers, Growth Marketers",
+    ],
+  },
+  {
+    bullets: [
+      "Validation Stage: $50k for 5% Equity",
+      "Expected Revenue at This Stage: $1k+/mth",
+      "Duration of Raise: 3-6mths",
+      "Who Can Invest: Everyone",
+    ],
+  },
+  {
+    bullets: [],
+  },
+];
+export const jobs = [
+  {
+    logo: "/comp1.svg",
+    description: "This company is a SAAS Startup that builds AI copy generator...",
+    through: "Chief Executive Officer",
+    location: "Abuja, Nigeria",
+    industry: "On-demand print",
+    equity: "1.2%",
+    stipend: "NGN 200,000/mth ",
+    dateline: "24th, January 2024",
+    roleType: "Full-time",
+  },
+  {
+    logo: "/comp2.svg",
+    description: "This company is a SAAS Startup that builds AI copy generator...",
+    location: "Abuja, Nigeria",
+    through: "UX Strategist",
+    industry: "E-commerce",
+    equity: "1.2%",
+    stipend: "NGN 200,000/mth ",
+    dateline: "24th, January 2024",
+    roleType: "Full-time",
+  },
+  {
+    logo: "/comp3.svg",
+    description: "This company is a SAAS Startup that builds AI copy generator...",
+    through: "CTO & Head of innovations",
+    location: "Abuja, Nigeria",
+    industry: "Fintech",
+    equity: "1.2%",
+    stipend: "NGN 200,000/mth ",
+    dateline: "24th, January 2024",
+    roleType: "Full-time",
+  },
+  {
+    logo: "/comp4.svg",
+    description: "This company is a SAAS Startup that builds AI copy generator...",
+    through: "Chief Executive Officer",
+    location: "Abuja, Nigeria",
+    industry: "Transportation",
+    equity: "1.2%",
+    stipend: "NGN 200,000/mth ",
+    dateline: "24th, January 2024",
+    roleType: "Full-time",
   },
 ];
