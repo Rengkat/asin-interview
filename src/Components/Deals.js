@@ -61,8 +61,8 @@ const Deals = () => {
                       ✓ {bullet}
                     </p>
                   ))}
-                  <div className={`${i === 3 ? "bg-black text-white py-8 px-5 block" : "hidden"}`}>
-                    <p className="mb-8">
+                  <div className={`${i === 3 ? "bg-black text-white py-8 px-4 block" : "hidden"}`}>
+                    <p className="mb-5">
                       {" "}
                       Work with Service Incubators (SINC) to expedite your time to market
                     </p>

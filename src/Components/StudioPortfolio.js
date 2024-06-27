@@ -3,6 +3,7 @@ import Heading from "./Heading";
 import Image from "next/image";
 import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
+import MoreLink from "./MoreLink";
 
 const StudioPortfolio = () => {
   return (
@@ -27,12 +28,7 @@ const StudioPortfolio = () => {
           );
         })}
       </div>
-      <Link
-        className="font-semibold flex items-center justify-center underline gap-2"
-        href={"/companies"}>
-        <span>View All Companies</span>
-        <IoMdArrowForward />
-      </Link>
+      <MoreLink text={"View All Companies"} link={"/companies"} />
     </div>
   );
 };

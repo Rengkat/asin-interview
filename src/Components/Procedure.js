@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
 import { GoArrowRight, GoArrowLeft } from "react-icons/go";
+import MoreLink from "./MoreLink";
 const Procedure = () => {
   return (
     <div className="w-[90%] mx-auto my-[5rem]">
@@ -44,12 +45,7 @@ const Procedure = () => {
           );
         })}
       </div>
-      <Link
-        className="font-semibold flex items-center justify-center underline gap-2"
-        href={"/companies"}>
-        <span>Support the Future</span>
-        <IoMdArrowForward />
-      </Link>
+      <MoreLink link={"/companies"} text={"Support the Future"} />
 
       <div className="flex justify-center gap-16 text-3xl my-[5rem]">
         <div className="w-[3rem] h-[3rem] border-[1px] border-gray-700 rounded-full grid place-items-center">

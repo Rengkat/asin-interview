@@ -236,3 +236,108 @@ export const jobs = [
     roleType: "Full-time",
   },
 ];
+export const blogs = [
+  {
+    image: "/blog.png",
+    title: "Top Ten Most Powerful Startup",
+    text: "Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup",
+    icon: "/bk1.png",
+  },
+  {
+    image: "/blog.png",
+    title: "Top Ten Most Powerful Startup",
+    text: "Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup",
+    icon: "/bk2.png",
+  },
+  {
+    image: "/blog.png",
+    title: "Top Ten Most Powerful Startup",
+    text: "Top Ten Most Powerful Startup. Top Ten Most Powerful Startup. Top Ten Most Powerful Startup",
+    icon: "/bk3.png",
+  },
+];
+export const news = [
+  {
+    image: "/news1.png",
+    icon: "/punch.svg",
+    title: "SINC Partners invests  over 200 million naira in 5 startups",
+    content:
+      "SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....",
+    reporter: "Rema Viel",
+  },
+  {
+    image: "/news2.png",
+    icon: "/bujnews.svg",
+    title: "SINC Partners invests  over 200 million naira in 5 startups",
+    content:
+      "SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....",
+    reporter: "Rema Viel",
+  },
+  // {
+  //   image: "/news3.png",
+  //   icon: "/Guardian.svg",
+  //   title: "SINC Partners invests  over 200 million naira in 5 startups",
+  //   content:
+  //     "SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....",
+  //   reporter: "Rema Viel",
+  // },
+  // {
+  //   image: "/news4.png",
+  //   icon: "/Ontecx.svg",
+  //   title: "SINC Partners invests  over 200 million naira in 5 startups",
+  //   content:
+  //     "SINC Partners invests  over 200 million naira in 5 startups. SINC Partners invests  over 200 million naira in 5 startups SINC Partners invests  over 200 million naira in ....",
+  //   reporter: "Rema Viel",
+  // },
+];
+export const platformlinks = [
+  {
+    linkName: "Kofoundme",
+    link: "/Kofoundme",
+  },
+  { linkName: "Service Market", link: "/serviceMarket" },
+  { linkName: "Metty", link: "/metty" },
+  { linkName: "Grantty", link: "/grantty" },
+  { linkName: "Boldtell", link: "/boldtell" },
+  { linkName: "Chekwa", link: "/Chekwa" },
+];
+export const initiatives = [
+  {
+    linkName: "Jabi Plains",
+    link: "/Kofoundme",
+  },
+  { linkName: "Local Pricing Initiative", link: "/serviceMarket" },
+  { linkName: "Scholarship Program", link: "/metty" },
+  { linkName: "SSMN Pricing", link: "/grantty" },
+  { linkName: "University STEM  ", link: "/boldtell" },
+  { linkName: "University InResidency ", link: "/Chekwa" },
+  { linkName: "1M Nigeria Products ", link: "/Chekwa" },
+  { linkName: "Founders Festival ", link: "/Chekwa" },
+];
+export const aboutlinks = [
+  {
+    linkName: "Who We Are",
+    link: "/Kofoundme",
+  },
+  { linkName: "Our People", link: "/serviceMarket" },
+  { linkName: "Concept Innovations", link: "/metty" },
+  { linkName: "Our Process", link: "/grantty" },
+  { linkName: "Investors Network", link: "/boldtell" },
+  { linkName: "CSR & Events ", link: "/Chekwa" },
+  { linkName: "Career", link: "/Chekwa" },
+  { linkName: "Contact ", link: "/Chekwa" },
+];
+export const morelinks = [
+  {
+    linkName: "Services",
+    link: "/Kofoundme",
+  },
+  { linkName: "Equity Jobs", link: "/serviceMarket" },
+  { linkName: "EIR Program", link: "/metty" },
+  { linkName: "Offers", link: "/grantty" },
+  { linkName: "Innovation News", link: "/boldtell" },
+  { linkName: "FAQ ", link: "/Chekwa" },
+  { linkName: "Blog & Resources", link: "/Chekwa" },
+  { linkName: "Press ", link: "/Chekwa" },
+];
+export const locations = ["Abuja, Nigeria", "Lagos, Nigeria", "Philadelphia, USA"];

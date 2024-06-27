@@ -3,6 +3,7 @@ import Heading from "./Heading";
 import { CoFounds } from "./mockData";
 import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
+import MoreLink from "./MoreLink";
 
 const CoFound = () => {
   return (
@@ -38,12 +39,7 @@ const CoFound = () => {
           );
         })}
       </div>
-      <Link
-        className="font-semibold flex items-center justify-center underline gap-2"
-        href={"/companies"}>
-        <span>View All Companies</span>
-        <IoMdArrowForward />
-      </Link>
+      <MoreLink link={"/companies"} text={"View All Companies"} />
     </div>
   );
 };

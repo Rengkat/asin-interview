@@ -2,6 +2,9 @@ import React, { Fragment } from "react";
 import Heading from "./Heading";
 import { jobs } from "./mockData";
 import Image from "next/image";
+import Link from "next/link";
+import { IoMdArrowForward } from "react-icons/io";
+import MoreLink from "./MoreLink";
 
 const Jobs = () => {
   return (
@@ -60,6 +63,7 @@ const Jobs = () => {
           );
         })}
       </div>
+      <MoreLink link={"/equity-jobs"} text={"VSee More Equity Jobs"} />
     </div>
   );
 };
