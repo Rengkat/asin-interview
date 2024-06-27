@@ -6,9 +6,9 @@ import MoreLink from "./MoreLink";
 
 const Blog = () => {
   return (
-    <div className="w-[80%] mx-auto mt-[10rem]">
+    <div className="w-full lg:w-[80%] mx-auto mt-[5rem] lg:mt-[10rem] px-5 lg:px-0">
       <Heading heading={"Blogs & Resources"} />
-      <div className="flex justify-between gap-5 mt-[5rem]">
+      <div className="flex flex-col lg:flex-row justify-between gap-5 mt-5 lg:mt-[5rem]">
         {blogs.map((blog, i) => {
           return (
             <Fragment key={i}>
@@ -26,7 +26,7 @@ const Blog = () => {
           );
         })}
       </div>
-      <MoreLink link={"/blogs"} text={"See More Blogs & Resources"} />
+      <MoreLink display={true} link={"/blogs"} text={"See More Blogs & Resources"} />
     </div>
   );
 };

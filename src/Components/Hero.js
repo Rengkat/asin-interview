@@ -4,9 +4,9 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex bg-white">
-      <aside className="w-1/2 flex items-center justify-center">
-        <div className="w-[60%]">
+    <div className="flex bg-white h-[70vh] lg:h-auto">
+      <aside className="w-full lg:w-1/2 flex items-center justify-center">
+        <div className="w-full lg:w-[60%] px-10 lg:px-0">
           <div className=" font-bold text-2xl leading-[2]">
             SINC Partners is a service incubation company{" "}
           </div>
@@ -19,7 +19,7 @@ const Hero = () => {
           </Link>
         </div>
       </aside>
-      <Image className="w-1/2" src={"/Hero.png"} height={500} width={500} />
+      <Image className="w-1/2 hidden lg:block" src={"/Hero.png"} height={500} width={500} />
     </div>
   );
 };

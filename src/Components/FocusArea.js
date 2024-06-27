@@ -4,7 +4,7 @@ import Heading from "./Heading";
 
 const FocusArea = () => {
   return (
-    <div className="my-[5rem] w-[80%] mx-auto">
+    <div className="my-[5rem] w-full lg:w-[80%] mx-auto px-5 lg:px-0">
       <Heading
         heading={"Our Area of Focus"}
         subHeading={
@@ -12,7 +12,7 @@ const FocusArea = () => {
         }
       />
 
-      <div className="flex mx-auto my-12">
+      <div className="flex flex-col lg:flex-row mx-auto my-12">
         {focusAreas.map((card, i) => {
           return (
             <Fragment key={i}>

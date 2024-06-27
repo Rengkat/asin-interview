@@ -8,14 +8,14 @@ import { GoArrowRight, GoArrowLeft } from "react-icons/go";
 import MoreLink from "./MoreLink";
 const Procedure = () => {
   return (
-    <div className="w-[90%] mx-auto my-[5rem]">
+    <div className="w-full lg:w-[95%] mx-auto my-[5rem] px-5 lg:px-0">
       <Heading
         heading={"Join Our Entrepreneur In Residence (EIR) Program"}
         subHeading={
           "Our EIR program is our structured 3 months un-paid program designed to help us have a pipeline of business and technical cofounders who can run the venture of choice as CEO & CTO owning 20% equity each."
         }
       />
-      <div className="flex gap-2 my-14 ">
+      <div className="flex flex-col lg:flex-row gap-2 my-10 lg:my-14 ">
         {Procedures.map((card, i) => {
           return (
             <Fragment key={i}>
@@ -47,7 +47,7 @@ const Procedure = () => {
       </div>
       <MoreLink link={"/companies"} text={"Support the Future"} />
 
-      <div className="flex justify-center gap-16 text-3xl my-[5rem]">
+      <div className="flex justify-center gap-10 lg:gap-16 text-3xl my-5  lg:my-[5rem]">
         <div className="w-[3rem] h-[3rem] border-[1px] border-gray-700 rounded-full grid place-items-center">
           <GoArrowLeft />
         </div>

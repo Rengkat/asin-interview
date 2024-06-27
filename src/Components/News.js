@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const News = () => {
   return (
-    <div className="w-[100%] mx-auto mt-[10rem] mb-[5rem]">
+    <div className="hidden lg:block w-full mx-auto mt-[10rem] mb-[5rem]">
       <h3 className="font-bold text-2xl text-center">As Featured In</h3>
       <div className="flex gap-5 shadow">
         {news.map((info, i) => {

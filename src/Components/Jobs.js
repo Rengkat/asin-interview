@@ -8,18 +8,18 @@ import MoreLink from "./MoreLink";
 
 const Jobs = () => {
   return (
-    <div className="w-[80%] mx-auto mt-[10rem]">
+    <div className="w-full lg:w-[80%] mx-auto mt-[5rem] lg:mt-[10rem] px-5 lg:px-0">
       <Heading
         heading={"Equity jobs"}
         subHeading={
           "See companies and startups offering equity or a mix of cash and equity for very important position in their company"
         }
       />
-      <div className="flex gap-5 my-10">
+      <div className="flex flex-col lg:flex-row gap-5 my-10">
         {jobs.map((info, i) => {
           return (
             <Fragment key={i}>
-              <div className="bg-white w-[25%] p-5 rounded-md shadow">
+              <div className="bg-white w-full lg:w-[25%] p-5 rounded-md shadow">
                 <Image className="w-[40%]" src={info.logo} height={200} width={200} />
                 <p className="my-2">{info.description}</p>
                 <p className="font-bold">{info.through}</p>

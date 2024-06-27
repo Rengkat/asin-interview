@@ -7,18 +7,18 @@ import MoreLink from "./MoreLink";
 
 const CoFound = () => {
   return (
-    <div className="w-[80%] mx-auto my-[5rem]">
+    <div className="w-full lg:w-[80%] mx-auto my-[5rem] px-5 lg:px-0">
       <Heading
         heading={"Co-found With Us"}
         subHeading={
           "We seek to collaborate with visionary individuals who are solving similar problems of helping entrepreneurs succeed "
         }
       />
-      <div className="flex gap-10 my-14 ">
+      <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 my-14 ">
         {CoFounds.map((card, i) => {
           return (
             <Fragment key={i}>
-              <aside className=" bg-white shadow rounded-md p-5">
+              <aside className=" bg-white shadow rounded-md p-10 lg:p-5">
                 <div
                   style={{
                     width: "3rem",

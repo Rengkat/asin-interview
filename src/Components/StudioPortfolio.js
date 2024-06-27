@@ -7,12 +7,12 @@ import MoreLink from "./MoreLink";
 
 const StudioPortfolio = () => {
   return (
-    <div className="w-[80%] mx-auto mt-[5rem]">
+    <div className="w-full lg:w-[80%] mx-auto mt-[5rem] px-5 lg:px-0">
       <Heading
         heading={"Our Studio Portfolio"}
         subHeading={"Our 2024 Service Incubator Portfolio Companies"}
       />
-      <div className="grid grid-cols-8 gap-5 my-[4rem]">
+      <div className="grid grid-cols-4 lg:grid-cols-8 gap-5 my-[4rem]">
         {Array.from({ length: 48 }).map((_, i) => {
           return (
             <Fragment key={i}>

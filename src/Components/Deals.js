@@ -5,30 +5,30 @@ import Link from "next/link";
 
 const Deals = () => {
   return (
-    <div className="w-[80%] mx-auto">
+    <div className="w-full lg:w-[80%] mx-auto px-5 lg:px-0">
       <Heading
         heading={"SINC Investors Network"}
         subHeading={
           "Our deals are structured not just to take in investments but to onboard owners passionate about our solutions. Our portfolio companies are valued at $50k at start, with these low valuation, you are guaranteed at least 2x-5x, usually been the first to invest. "
         }
       />
-      <p className="w-[70%] mx-auto text-center my-4">
+      <p className="w-full lg:w-[70%] mx-auto text-center my-4">
         <span className="font-bold">Disclaimer:</span> These deal flows is a statement of our
         projections and may differ from stage to stage and from venture to venture and the guarantee
         is for deal 1, usually the first to invest
       </p>
-      <p className="my-10">
+      <p className="my-10 text-center lg:text-left">
         <span className="font-bold">Micro Angel Investors & Service incubators</span> (Invest from
         $500 & above)
       </p>
-      <div className="border-y-[1px] border-gray-700 flex">
+      <div className="border-y-[1px] border-gray-700 flex flex-col lg:flex-row">
         {DealsInfos.map((info, i) => {
           return (
             <Fragment key={i}>
               <div
                 className={`${
-                  (i === 1 || i === 2) && "border-x-[1px] border-gray-700"
-                } px-2 py-4 w-[25%]`}>
+                  (i === 1 || i === 2) && "lg:border-x-[1px] border-gray-400"
+                } border-y-[1px] px-2 py-4 w-full lg:w-[25%]`}>
                 <h2 className="font-bold my-3">Deal {i + 1}</h2>
                 <div>
                   {info.bullets.map((bullet, i) => (
@@ -42,18 +42,18 @@ const Deals = () => {
           );
         })}
       </div>
-      <p className="my-10">
+      <p className="my-10  text-center lg:text-left">
         <span className="font-bold">Angel Investors & Venture Capital</span> (Invest
         from $50k and above){" "}
       </p>
-      <div className="border-y-[1px] border-gray-700 flex">
+      <div className="border-y-[1px] border-gray-700 flex flex-col lg:flex-row">
         {DealsInfos2.map((info, i) => {
           return (
             <Fragment key={i}>
               <div
                 className={`${
-                  (i === 1 || i === 2) && "border-x-[1px] border-gray-700"
-                } px-2 py-4 w-[25%]`}>
+                  (i === 1 || i === 2) && "lg:border-x-[1px] border-gray-400"
+                } border-y-[1px] px-2 py-4 w-full lg:w-[25%]`}>
                 <h2 className={`${i === 3 ? "hidden" : "block font-bold my-3"}`}>Deal {i + 5}</h2>
                 <div>
                   {info.bullets.map((bullet, i) => (
