@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="w-full bg-[#212121] border-y-[1px] border-gray-500">
       <div className="w-full lg:w-[80%] mx-auto text-white grid grid-cols-1 lg:flex lg:justify-between px-5 lg:px-0">
         <div className="w-full lg:w-[20%] py-[2rem]">
-          <Image className="w-[50%]" src={"/blackLogo.svg"} width={200} height={200} />
+          <Image className="w-[20%] lg:w-[50%]" src={"/blackLogo.svg"} width={200} height={200} />
           <p className="py-2 leading-[1.5] font-light pr-2 text-sm">
             SINC Partners is a service incubation company connecting experts in product development
             and growth marketing willing to offer their services to amazing startups in exchange
